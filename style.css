@@ -1,11 +1,21 @@
 body {
-    background: rgb(2,0,36);
-    background: linear-gradient(21deg, rgba(2,0,36,1) 0%, rgba(98,156,145,1) 100%, rgba(0,212,255,1) 100%);
+    background: rgb(100,50,200);
+    flex: box;
+    flex-direction: column;
 }
 #photo{
-    background: url("assets/Гордійчук.jpg");
-    width: 25vn;
-    height: 40vn;
+    background-image: url("assets/Гордійчук.jpg");
+    background-size: cover;
+    width: 27vw;
+    height: 40vw;
+    border: 0.3vw solid;
+    border-color: black;
+    border-radius: 5%;
+}
+#gugugaga{
 
+}
+.gugugaga{
+    font-size: 2vw;
 }
 
