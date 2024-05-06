@@ -7,7 +7,7 @@ justify-content: center;
 }
 
 content{
-width: 420px;
+width: 460px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -17,7 +17,7 @@ gap: 10px;
 /* Для наочності роботи з блоками */
 
 div {
-border: 1px solid darkgray;
+/* border: 1px solid darkgray; */
 }
 
 .title {
@@ -42,7 +42,7 @@ justify-content: space-between;
 }
 .item{
     width: 200px;
-    height: 320px;
+    min-height: 320px;
     margin-bottom: 10px;
     border: 1px solid rgb(194,194,194);
     border-radius: 5px;
