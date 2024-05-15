@@ -14,10 +14,9 @@ justify-content: center;
 gap: 10px;
 }
 
-/* Для наочності роботи з блоками */
 
 div {
-/* border: 1px solid darkgray; */
+border: 1px solid darkgray;
 }
 
 .title {
@@ -35,8 +34,8 @@ letter-spacing: 3px;
 
 .items {
 display: flex;
-/*gap: 20px;
-padding: 10px; */
+gap: 20px;
+padding: 10px;
 flex-wrap: wrap;
 justify-content: space-between;
 }
