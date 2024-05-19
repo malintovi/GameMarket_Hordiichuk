@@ -61,3 +61,7 @@ justify-content: space-between;
     text-align: justify;
     color: rgb(120,120,120);
 }
+.item-image{
+    width:200px;
+    height: 320px;
+}
